@@ -1,0 +1,66 @@
+@media (max-width:768px) {
+    * {
+        box-sizing: border-box;
+    }
+    .navbar{
+        width: 100%;
+        display: flex;
+        gap: .625rem;
+    }
+    .banner-principal{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .tres-servicios{
+        margin-left: .625rem;
+    }
+    .newsletter{
+        width: 100%;
+        h2 {
+            margin-left: 0px;
+        }
+        p {
+            margin-left: 5px;
+        }
+    }
+    .bannerCopy{
+        background-image: none;
+        margin-top: .625rem;
+        margin-bottom: .625rem;
+        p{
+            display: flex;
+            justify-content: center;
+            margin-right: 1.25rem;
+        }
+    }
+    .tipo-correccion{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin-left: 1.875rem;
+        gap: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+    .bannerBlog{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-contacto{
+        display: flex;
+        flex-direction: column;
+        img{
+            display: flex;
+            flex-direction: row;
+            align-self: center;
+            height: 100px;
+            width:fit-content;
+        }
+    }
+    .quienes-somos {
+        margin-left: 1.875rem;
+    }
+    .banner-secundario {
+        margin-left: 2.5rem;
+    }
+}

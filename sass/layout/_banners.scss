@@ -1,0 +1,40 @@
+.banner-principal {
+    width: 100%;
+    height: 20rem;
+    background-image: url(https://images.unsplash.com/photo-1516387938699-a93567ec168e?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+        font-family: "Montserrat", sans-serif;
+        margin-left: 5%;
+        margin-top: 5%;
+        color: blueviolet;
+        font-size: 30px;
+    }
+    p{
+        margin-left: 5%;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+
+.banner-secundario{
+    width: 100%;
+    height: 12rem;
+    background-image:url(https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+        font-family: "Playfair Display", serif;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    p{
+        margin-left: 5%;
+    }
+}
