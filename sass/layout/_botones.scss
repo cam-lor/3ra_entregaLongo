@@ -1,6 +1,6 @@
 .tres-servicios button{
-    background-color: rgb(203, 155, 248);
-    color: aliceblue;
+    background-color: $color3;
+    color:  $color2;
     font-weight: 650;
     padding: .3125rem;
     border: 0cap;
@@ -9,8 +9,8 @@
 }
 
 .newsletter button{
-    background-color:aliceblue;
-    color:blueviolet;
+    background-color: $color2;
+    color: $color1;
     font-weight: 650;
     padding: .3125rem;
     border: 0cap;
@@ -21,26 +21,28 @@
 }
 
 .banner-palabras button{
-    background-color:aliceblue;
-    color:blueviolet;
+    background-color: $color2;
+    color: $color1;
     width: 170px;
     margin-left: 40%;
     grid-area: boton;
+    border-radius: 5px;
 }
 
 .bannerBlog button{
-    background-color:aliceblue;
-    color:blueviolet;
+    background-color: $color2;
+    color: $color1;
     border: 0cap;
     width: 170px;
     font-family: "Playfair Display", serif;
     font-weight: 600;
     font-size: 14px;
+    border-radius: 5px;
 }
 
 .seis-cursos button{
-    background-color: rgb(203, 155, 248);
-    color: aliceblue;
+    background-color: $color3;
+    color: $color2;
     font-weight: 650;
     padding: .3125rem;
     border: 0cap;
@@ -48,14 +50,15 @@
 }
 
 .btn{
-    background-color: blueviolet;
-    color: rgb(240, 248, 255);
+    background-color: $color1;
+    color: $color2;
     border: 0cap;
+    border-radius: 5px;
 }
 
 .btn-servicio{
     border: 0cap;
-    background-color: rgb(255, 255, 255);
+    background-color: $color2;
     text-decoration: none;
     text-decoration-line: none;
 }
@@ -64,11 +67,11 @@
     display: block;
     width: 100%;
     padding: .3125rem;
-    background-color: rgb(255, 255, 255);
+    background-color: $color2;
     font-family: "Playfair Display", serif;
     font-weight: 650;
     font-size: 16px;
-    color: rgb(203, 155, 248);
+    color: $color3;
     border: none;
     border-radius: 5px;
 }
