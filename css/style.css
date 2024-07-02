@@ -310,7 +310,7 @@ footer .redes-soc {
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   justify-content: center;
-  background-color: white;
+  background-color: #f0e7f0;
   padding: 20px;
   text-align: center;
   margin-top: 40px;
@@ -415,7 +415,7 @@ footer .redes-soc {
   margin-top: 20px;
   margin-bottom: 20px; }
   .card-container .card {
-    background-color: white;
+    background-color: #f0e7f0;
     max-width: 450px;
     border-radius: 8px;
     padding: 10px;

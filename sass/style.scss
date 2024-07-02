@@ -16,7 +16,7 @@
     grid-template-columns: repeat($columnas, 1fr);
     gap: $espaciado-cursos;
     justify-content: center;
-    background-color: map-get($map: $colores, $key: color2);
+    background-color: rgb(240, 231, 240);
     padding: 20px;
     text-align: center;
     margin-top: 40px;
@@ -139,7 +139,7 @@
     margin-bottom: 20px;
 
     .card {
-        background-color: map-get($map: $colores, $key: color2);
+        background-color: rgb(240, 231, 240);
         max-width: 450px;
         border-radius: 8px;
         padding: 10px;
