@@ -3,27 +3,22 @@ header {
     height: $altura-header;
     justify-content: center;
     
-    nav {
-        ul.navbar {
-            display: flex;
-            gap: $espaciado-entre-items;
-            justify-content: center;
-            list-style: none;
-            align-items: center;
-            
-            li {
-                a {
-                    text-decoration: none;
-                    color: rgb(0, 0, 0);
-                    font-family: "Playfair Display", serif;
-                    font-weight: 700;
-                    font-size: 18px;
-                    }
-                .logonavbar {
-                    height: $altura-logo-navbar;
-                    box-sizing:$altura-logo-navbar;
-                }
+    .navbar {
+        background-color: map-get($map: $colores, $key: color2);
+        .navbar-brand {
+        font-size: 1.5rem;
+        align-items: center;
+        }
+        .navbar-nav {
+        .nav-item {
+            .nav-link {
+            color: #000000;
+            background-color: map-get($map: $colores, $key: color2);
+            &:hover {
+            color: #555; // Color del texto del enlace al pasar el ratón
             }
+            }
+        }
         }
     }
 }

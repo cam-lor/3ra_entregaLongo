@@ -15,6 +15,8 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="">
     <title>KC Comunicaciones</title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -24,13 +26,27 @@
 <body>
     <!-- Barra de navegación: no corresponde exactamente a las páginas existentes porque Servicios necesita un menú despleganble. Corrección es parte de servicios, por eso lo vinculé ahí. Blog no lleva a ningún lado porque el blog no existe.-->
     <header>
-        <nav>
-            <ul class="navbar">
-                <li><a href="./pages/Nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/Correccion.html">Servicios</a></li>
-                <li><a href="index.html"><img src="assets/logo 2.jpg" class="logonavbar"></a></li>
-                <li><a href="./pages/cursos.html">Cursos</a></li>
-                <li><a href="">Blog</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="./index.html">
+            <img src="./assets/logo 2.jpg" width="%" height="80" class="d-inline-block align-top" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="./pages/Nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./pages/Correccion.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./pages/cursos.html">Cursos</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Blog</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -43,17 +59,17 @@
         <section class="tres-servicios">
             <div>
             <h2 class="servicio1Titulo">COPYWRITING</h2>
-            <p class="servicio1descripcion">Lorem ipsum dolor sit amet consectetur. Et tincidunt fames turpis sagittis velit viverra bibendum in. In amet felis faucibus nunc. Elit pellentesque pharetra pulvinar facilisi. Lacinia turpis proin porttitor vitae nunc</p>
+            <p class="servicio1descripcion">Potencia tu mensaje con nuestro servicio de copywriting profesional. Desde creación de contenido web convincente hasta estrategias de marketing de impacto, aseguramos que tu voz destaque y conecte con tu audiencia de manera efectiva.</p>
             <a href="./pages/Correccion.html"><button class="servicio1boton">QUIERO VENDER</button></a>
             </div>
             <div>
             <h2>CURSOS</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Et tincidunt fames turpis sagittis velit viverra bibendum in. In amet felis faucibus nunc. Elit pellentesque pharetra pulvinar facilisi. Lacinia turpis proin porttitor vitae nunc</p>
+            <p>Explora cursos de redacción, branding y copywriting que transformarán tu habilidad para comunicar. Aprende a crear contenido persuasivo y construir marcas sólidas que destaquen en cualquier industria.</p>
             <a href="./pages/cursos.html"><button>QUIERO APRENDER</button></a>
             </div>
             <div>
             <h2 class="servicio3Titulo">CORRECCIÓN</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Et tincidunt fames turpis sagittis velit viverra bibendum in. In amet felis faucibus nunc. Elit pellentesque pharetra pulvinar facilisi. Lacinia turpis proin porttitor vitae nunc</p>
+            <p>Ofrecemos servicios de corrección profesional para asegurar que tu contenido esté impecable. Mejora la claridad, precisión y fluidez de tus textos con nuestra ayuda especializada.</p>
             <a href="./pages/Correccion.html"><button class="servicio3boton">QUIERO AYUDA</button></a>
             </div>
         </section>

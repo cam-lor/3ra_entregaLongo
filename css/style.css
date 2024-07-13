@@ -8,16 +8,6 @@
     box-sizing: border-box;
     width: 100%;
     margin-left: 0%; }
-  ul.navbar {
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 5px; }
-    ul.navbar li {
-      width: 100%; }
-      ul.navbar li a {
-        padding: 5px; }
-      ul.navbar li img {
-        display: none; }
   .banner-principal {
     width: 100%;
     height: 20rem;
@@ -168,6 +158,19 @@
   .banner-secundario {
     margin-left: 2.5rem; } }
 
+.navbar {
+  background-color: white; }
+  .navbar .navbar-brand {
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: #000000;
+    background-color: white; }
+    .navbar .navbar-nav .nav-item .nav-link:hover {
+      color: #555; }
+
 .banner-principal {
   width: 100%;
   height: 20rem;
@@ -207,21 +210,16 @@ header {
   display: flex;
   height: 80px;
   justify-content: center; }
-  header nav ul.navbar {
-    display: flex;
-    gap: 4.25rem;
-    justify-content: center;
-    list-style: none;
-    align-items: center; }
-    header nav ul.navbar li a {
-      text-decoration: none;
-      color: black;
-      font-family: "Playfair Display", serif;
-      font-weight: 700;
-      font-size: 18px; }
-    header nav ul.navbar li .logonavbar {
-      height: 70px;
-      box-sizing: 70px; }
+  header .navbar {
+    background-color: white; }
+    header .navbar .navbar-brand {
+      font-size: 1.5rem;
+      align-items: center; }
+    header .navbar .navbar-nav .nav-item .nav-link {
+      color: #000000;
+      background-color: white; }
+      header .navbar .navbar-nav .nav-item .nav-link:hover {
+        color: #555; }
 
 .tres-servicios button {
   background-color: blueviolet;
