@@ -39,7 +39,7 @@
     margin-left: 0px; }
   .seis-cursos {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     background-color: #f0e7f0;
     padding: 10px;
