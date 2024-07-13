@@ -40,9 +40,9 @@
     }
 
     .seis-cursos {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
         background-color: rgb(240, 231, 240);
         padding: 10px;
         text-align: center;
@@ -120,7 +120,9 @@
     }
 
     .tres-servicios {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
         padding: 10px;
         text-align: center;
         margin: 20px;
