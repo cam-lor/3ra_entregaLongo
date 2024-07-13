@@ -1,0 +1,22 @@
+.seis-cursos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(240, 231, 240);
+    padding: 10px;
+    text-align: center;
+    margin: 10px; 
+
+    h2 {
+    font-size: 1.2rem;
+    color: map-get($map: $colores, $key: color1);
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    }
+    
+    p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    }
+}
