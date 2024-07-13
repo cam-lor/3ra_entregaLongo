@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box; }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   * {
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 0%; }
   ul.navbar {
     flex-direction: column;
     align-items: center;
@@ -14,11 +16,13 @@
       width: 100%; }
       ul.navbar li a {
         padding: 5px; }
+      ul.navbar li img {
+        display: none; }
   .banner-principal {
     width: 100%;
     height: 20rem;
     background-image: url(https://images.unsplash.com/photo-1516387938699-a93567ec168e?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-position: center;
+    background-position: 100%;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -33,19 +37,33 @@
     .banner-principal p {
       margin-left: 5%;
       font-family: "Montserrat", sans-serif; }
-  .seis-cursos {
+  .banner-secundario {
+    width: 100%;
+    height: 20rem;
+    background-position: 100%;
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0px; }
+  .seis-cursos {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    background-color: #f0e7f0;
     padding: 10px;
     text-align: center;
     margin: 10px; }
     .seis-cursos h2 {
-      font-size: 1rem;
-      margin-bottom: 5px; }
+      font-size: 1.2rem;
+      color: blueviolet;
+      margin-bottom: 10px;
+      text-align: center;
+      font-family: "Montserrat", sans-serif; }
     .seis-cursos p {
-      font-size: 0.9rem;
-      margin-bottom: 10px; }
+      font-size: 1rem;
+      margin-bottom: 15px; }
   .newsletter {
     display: block;
     padding: 10px;
@@ -304,6 +322,9 @@ footer .redes-soc {
   footer .redes-soc img {
     width: 30px;
     height: 30px; }
+
+* {
+  box-sizing: border-box; }
 
 .seis-cursos {
   display: grid;

@@ -11,6 +11,10 @@
 @import "./layout/footer";
 @import "./components/bootstrap";
 
+* {
+    box-sizing: border-box;
+}
+
 .seis-cursos {
     display: grid;
     grid-template-columns: repeat($columnas, 1fr);
