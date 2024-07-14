@@ -107,7 +107,18 @@
     .nosotros-ayuda h2 {
       margin-left: 10px; }
     .nosotros-ayuda ul {
-      font-size: 16px; } }
+      font-size: 16px; }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: .8125rem; }
+    .navbar li {
+      gap: .125rem;
+      font-size: .8125rem;
+      margin-bottom: 3px; } }
 
 .seis-cursos {
   display: flex;
@@ -178,18 +189,21 @@
   .banner-secundario {
     margin-left: 2.5rem; } }
 
-.navbar {
-  background-color: white; }
-  .navbar .navbar-brand {
-    font-size: 1.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; }
-  .navbar .navbar-nav .nav-item .nav-link {
-    color: #000000;
-    background-color: white; }
-    .navbar .navbar-nav .nav-item .nav-link:hover {
-      color: #555; }
+nav ul.navbar {
+  display: flex;
+  gap: 4.25rem;
+  justify-content: center;
+  list-style: none;
+  align-items: center; }
+  nav ul.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 18px; }
+  nav ul.navbar li .logonavbar {
+    height: 70px;
+    box-sizing: 70px; }
 
 .banner-principal {
   width: 100%;
@@ -226,20 +240,21 @@
   .banner-secundario p {
     margin-left: 5%; }
 
-header {
+nav ul.navbar {
   display: flex;
-  height: 80px;
-  justify-content: center; }
-  header .navbar {
-    background-color: white; }
-    header .navbar .navbar-brand {
-      font-size: 1.5rem;
-      align-items: center; }
-    header .navbar .navbar-nav .nav-item .nav-link {
-      color: #000000;
-      background-color: white; }
-      header .navbar .navbar-nav .nav-item .nav-link:hover {
-        color: #555; }
+  gap: 4.25rem;
+  justify-content: center;
+  list-style: none;
+  align-items: center; }
+  nav ul.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 18px; }
+  nav ul.navbar li .logonavbar {
+    height: 70px;
+    box-sizing: 70px; }
 
 .tres-servicios button {
   background-color: blueviolet;
