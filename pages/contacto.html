@@ -41,38 +41,37 @@
         <h2>Hacé tu consulta:</h2>
         <div class="container">
             <form class="row mt-3">
-                <div class="col-6 mt-3">
-                    <label for="nameInput" class="form-label">Nombre completo</label>
-                    <input type="name" class="form-control" id="nameInput">
-                </div>
-                <div class="col-6 mt-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email">
-                </div>
-                <div class="col-6 mt-3">
-                    <button class="btn-servicio dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">¿Qué servicio necesitas?</button>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Community Management</a></li>
-                    <li><a class="dropdown-item" href="#">Cursos</a></li>
-                    <li><a class="dropdown-item" href="#">Corrección</a></li>
-                    <li><a class="dropdown-item" href="#">Capacitación corporativa</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    </ul>
-                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
-                </div>
-                <div class="col-6 mt-3">
-                    <label for="cargo" class="form-label">¿Qué cargo ocupas?</label>
-                    <input type="cargo" class="form-control" id="cargo">
-                </div>
-                <div class="col-12 mt-3">
-                    <label for="mensaje" class="form-label">Mensaje</label>
-                    <input type="mensaje" class="form-control" id="mensaje">
-                </div>
-                <div class="col-12 mt-3 mb-5">
-                    <button type="submit" class="btn btn-primary">
-                        Enviar
-                    </button>
-                </div>
+            <div class="col-6 mt-3">
+                <label for="nameInput" class="form-label">Nombre completo</label>
+                <input type="text" class="form-control" id="nameInput" required>
+            </div>
+            <div class="col-6 mt-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="col-6 mt-3">
+                <button class="dropdown-toggle" type="button" onclick="toggleDropdown()">¿Qué servicio necesitas?</button>
+                <ul id="dropdownMenu" class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">Community Management</a></li>
+                <li><a href="#" class="dropdown-item">Cursos</a></li>
+                <li><a href="#" class="dropdown-item">Corrección</a></li>
+                <li><a href="#" class="dropdown-item">Capacitación corporativa</a></li>
+                </ul>
+                <input type="text" class="form-control" id="servicio" style="display:none;">
+            </div>
+            <div class="col-6 mt-3">
+                <label for="cargo" class="form-label">¿Qué cargo ocupas?</label>
+                <input type="text" class="form-control" id="cargo" required>
+            </div>
+            <div class="col-12 mt-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+            </div>
+            <div class="col-12 mt-3 mb-5">
+                <button type="submit" class="btn-primary">
+                Enviar
+                </button>
+            </div>
             </form>
         </div>
         <section class="newsletter">

@@ -356,6 +356,88 @@ footer .redes-soc {
     width: 30px;
     height: 30px; }
 
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+  .container .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; }
+  .container .col-6 {
+    flex: 0 0 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    margin-top: 20px; }
+    .container .col-6 label {
+      font-weight: bold;
+      margin-bottom: 8px;
+      display: block; }
+    .container .col-6 input[type="text"], .container .col-6 input[type="email"], .container .col-6 input[type="cargo"], .container .col-6 textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 16px; }
+    .container .col-6 .dropdown-toggle {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 16px;
+      background-color: #fff;
+      cursor: pointer; }
+    .container .col-6 .dropdown-menu {
+      display: none;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border: 1px solid #ccc;
+      z-index: 1000;
+      width: 100%;
+      padding: 10px 0;
+      margin-top: 5px; }
+    .container .col-6 .dropdown-menu.active {
+      display: block; }
+    .container .col-6 .dropdown-item {
+      padding: 10px;
+      text-decoration: none;
+      color: #333;
+      display: block; }
+      .container .col-6 .dropdown-item:hover {
+        background-color: #f0f0f0; }
+  .container .col-12 {
+    flex: 0 0 calc(100% - 10px);
+    max-width: calc(100% - 10px);
+    margin-top: 20px; }
+    .container .col-12 label {
+      font-weight: bold;
+      margin-bottom: 8px;
+      display: block; }
+    .container .col-12 textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 16px; }
+  .container .mb-5 {
+    margin-bottom: 40px; }
+  .container .btn-primary {
+    background-color: #cb9bf8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px; }
+    .container .btn-primary:hover {
+      background-color: blueviolet; }
+
 * {
   box-sizing: border-box; }
 

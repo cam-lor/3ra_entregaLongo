@@ -1,0 +1,73 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    }   
+    .col-6 {
+    flex: 0 0 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    margin-top: 20px;
+    label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    }
+    input[type="text"], input[type="email"], input[type="cargo"], textarea {
+    @include form-control;
+    }
+    .dropdown-toggle {
+    @include form-control;
+    background-color: #fff;
+    cursor: pointer;
+    }
+    .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid $border-color;
+    z-index: 1000;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 5px;
+    }
+    .dropdown-menu.active {
+    display: block;
+    }
+    .dropdown-item {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    &:hover {
+        background-color: #f0f0f0;
+    }
+    }
+    }
+.col-12 {
+    flex: 0 0 calc(100% - 10px);
+    max-width: calc(100% - 10px);
+    margin-top: 20px;
+    label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    }
+    textarea {
+    @include form-control;
+    }
+}
+.mb-5 {
+    margin-bottom: 40px;
+}
+.btn-primary {
+    @include btn-primary;
+}
+}
